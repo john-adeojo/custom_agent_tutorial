@@ -33,9 +33,7 @@
 
 ### Configure API Keys
 1. **Open the `config.yaml`:**
-   ```bash
-   nano config.yaml
-   ```
+  Update your keys, see next step for links to get your own API keys.
 
 2. **Enter API Keys:**
    - **Serper API Key:** Get it from [https://serper.dev/](https://serper.dev/)
