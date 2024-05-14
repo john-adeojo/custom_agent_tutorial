@@ -43,5 +43,6 @@
 
 ### Run Your Query
 ```bash
-python app.py "YOUR QUERY"
+python agent.py run
 ```
+Then run your query
