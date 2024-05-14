@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-05-14T11:14:08.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="VuY0quERgOPRJ4QZz9Re" version="24.3.1" type="device">
+  <diagram name="Page-1" id="rU8JHjLior_zJRwLBU05">
+    <mxGraphModel dx="2072" dy="1084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Overall Workflow&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="530" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Agents&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;powered by LLMs&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Qcd6xKoqnelJGYbhtqcp-2">
+          <mxGeometry x="290" y="87.5" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-23" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Web Search Tool&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="Qcd6xKoqnelJGYbhtqcp-2">
+          <mxGeometry x="63.75" y="87.5" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Agents&amp;nbsp;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="60" y="590" width="960" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Qcd6xKoqnelJGYbhtqcp-5" source="Qcd6xKoqnelJGYbhtqcp-6" target="Qcd6xKoqnelJGYbhtqcp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-6" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Planning Agent&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="Qcd6xKoqnelJGYbhtqcp-5">
+          <mxGeometry x="30" y="220" width="232.5" height="232.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Qcd6xKoqnelJGYbhtqcp-5" source="Qcd6xKoqnelJGYbhtqcp-7" target="Qcd6xKoqnelJGYbhtqcp-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="763" y="130" />
+              <mxPoint x="146" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Feedback&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qcd6xKoqnelJGYbhtqcp-10">
+          <mxGeometry x="0.0146" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Integration Agent&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="Qcd6xKoqnelJGYbhtqcp-5">
+          <mxGeometry x="640" y="213.75" width="245" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Qcd6xKoqnelJGYbhtqcp-5" source="Qcd6xKoqnelJGYbhtqcp-3" target="Qcd6xKoqnelJGYbhtqcp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qcd6xKoqnelJGYbhtqcp-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Web Search Tool&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="Qcd6xKoqnelJGYbhtqcp-5">
+          <mxGeometry x="370" y="253.75" width="165" height="165" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
