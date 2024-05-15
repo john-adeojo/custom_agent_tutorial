@@ -7,7 +7,7 @@
 
 2. **Create a Virtual Environment:**
    ```bash
-   conda create -n crew_env python=3.10 pip
+   conda create -n agent_env python=3.10 pip
    ```
    
 3. **Activate the Virtual Environment:**
@@ -34,8 +34,11 @@
 ### Configure API Keys
 1. **Open the `config.yaml`:**
   Update your keys, see next step for links to get your own API keys.
+```bash
+nano config.yaml
+```
 
-2. **Enter API Keys:**
+3. **Enter API Keys:**
    - **Serper API Key:** Get it from [https://serper.dev/](https://serper.dev/)
    - **OpenAI API Key:** Get it from [https://openai.com/](https://openai.com/)
 
