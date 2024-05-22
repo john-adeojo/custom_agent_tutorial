@@ -3,8 +3,8 @@ import yaml
 import json
 import requests
 from termcolor import colored
-from prompts import planning_agent_prompt, integration_agent_prompt
-from search import WebSearcher
+from utilities.prompts import planning_agent_prompt, integration_agent_prompt
+from tools.search import WebSearcher
 
 
 def load_config(file_path):

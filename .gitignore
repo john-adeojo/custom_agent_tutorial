@@ -1,0 +1,5 @@
+.env
+config.yaml
+poetry.lock
+__pycache__/
+db/
